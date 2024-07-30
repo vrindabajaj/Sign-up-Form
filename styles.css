@@ -8,25 +8,26 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
+    background-color: #ffefd9;
 }
 
 main {
     height: max(60vh, 700px);
     width: clamp(1000px, 80vw, 1200px);
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 0 #a7a7a74d;
+    border-radius: 10px;
 }
 
 .media-container {
-    background-image: url(images/sign-up-media.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/sign-up-media.jpg) bottom / cover no-repeat;
     flex-grow: 1;
+    border-radius: 10px 0 0 10px;
 }
 
 .form-container {
-    background-color: darkolivegreen;
+    background-color: rgb(249, 251, 244);
     flex-basis: 550px;
+    border-radius: 0 10px 10px 0;
 }
