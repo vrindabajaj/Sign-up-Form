@@ -19,11 +19,14 @@ main {
 }
 
 .media-container {
-    background-color: antiquewhite;
+    background-image: url(images/sign-up-media.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-grow: 1;
 }
 
 .form-container {
     background-color: darkolivegreen;
-    flex-basis: 600px;
+    flex-basis: 550px;
 }
