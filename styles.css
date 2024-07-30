@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    height: max(60vh, 700px);
+    width: clamp(1000px, 80vw, 1200px);
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.media-container {
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+
+.form-container {
+    background-color: darkolivegreen;
+    flex-basis: 600px;
+}
