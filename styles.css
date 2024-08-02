@@ -6,30 +6,30 @@
 
 body {
     min-height: 100vh;
+    background-color: #ffefd9;
     display: grid;
     place-items: center;
-    background-color: #ffefd9;
 }
 
 main {
     height: max(60vh, 700px);
     width: clamp(1000px, 80vw, 1200px);
-    display: flex;
-    flex-direction: row;
     box-shadow: 0 0 20px 0 #a7a7a74d;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .media-container {
-    background: url(images/sign-up-media.jpg) bottom / cover no-repeat;
     flex-grow: 1;
+    background: url(images/sign-up-media.jpg) bottom / cover no-repeat;
     border-radius: 10px 0 0 10px;
 }
 
 .form-container {
-    padding: 20px;
-    background-color: rgb(249, 251, 244);
+    padding: 50px;
     flex-basis: 550px;
+    background-color: rgb(249, 251, 244);
     border-radius: 0 10px 10px 0;
     display: flex;
     flex-direction: column;
@@ -37,21 +37,20 @@ main {
 }
 
 .form-inputs {
-    padding: 20px;
-    background-color: rgb(233, 233, 233);
+    margin-top: 50px;
 }
 
 .input-group, .name-group {
-    margin-top: 10px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
-    gap:2px;
+    gap: 5px;
 }
 
 .input-group:first-child {
     margin-top: 0;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .name-group {
@@ -59,5 +58,9 @@ main {
 }
 
 input {
-    background-color: rgb(249, 251, 244);
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 1rem;
  }
