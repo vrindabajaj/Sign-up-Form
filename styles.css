@@ -27,6 +27,17 @@ main {
     border-radius: 10px 0 0 10px;
 }
 
+.attribute {
+    color: black;
+    position: relative;
+    bottom: -100%;
+    font-size: 0.8rem;
+}   
+
+a {
+    color: black;
+}
+
 .form-container {
     padding: 50px;
     flex-basis: 550px;
